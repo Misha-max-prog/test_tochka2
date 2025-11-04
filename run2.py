@@ -1,10 +1,9 @@
 import sys
 from collections import deque
 
-
+# вебхук сработай пж да да
 def is_gateway(node):
     return node.isupper()
-
 
 def choose_gateway(current, graph):
     distances = {}
